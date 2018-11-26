@@ -22,7 +22,7 @@
 		4775D40D219E75EB001FB4BE /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4775D40B219E75EB001FB4BE /* ImageCell.xib */; };
 		4775D41321A3F850001FB4BE /* ImageEnlargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D41221A3F850001FB4BE /* ImageEnlargeViewController.m */; };
 		4775D41621A692BD001FB4BE /* UIImageView+LongImageShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D41521A692BD001FB4BE /* UIImageView+LongImageShowView.m */; };
-		4775D48121ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */; };
+		4775D48421ABF5DA001FB4BE /* lsTransitioningDemoGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4775D48321ABF5DA001FB4BE /* lsTransitioningDemoGIF.gif */; };
 		BEB6872FF766DEEF667707E8 /* libPods-LSTransitioningDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156029E845F4A2DB957FE00 /* libPods-LSTransitioningDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -71,7 +71,7 @@
 		4775D41221A3F850001FB4BE /* ImageEnlargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageEnlargeViewController.m; sourceTree = "<group>"; };
 		4775D41421A692BD001FB4BE /* UIImageView+LongImageShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LongImageShowView.h"; sourceTree = "<group>"; };
 		4775D41521A692BD001FB4BE /* UIImageView+LongImageShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LongImageShowView.m"; sourceTree = "<group>"; };
-		4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lsTransitioningDemoGIF.gif; sourceTree = "<group>"; };
+		4775D48321ABF5DA001FB4BE /* lsTransitioningDemoGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lsTransitioningDemoGIF.gif; sourceTree = "<group>"; };
 		63E2429759B2C0CF54CF9802 /* Pods-LSTransitioningDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoTests/Pods-LSTransitioningDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B0B9941D3EB7C6A6D1E54DC0 /* Pods-LSTransitioningDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DDDB67442C5868FAE426FB /* Pods-LSTransitioningDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,7 +112,6 @@
 		4775D3C8219D7748001FB4BE = {
 			isa = PBXGroup;
 			children = (
-				4775D47F21ABF4BB001FB4BE /* GIF */,
 				4775D3D3219D7748001FB4BE /* LSTransitioningDemo */,
 				4775D3EC219D774D001FB4BE /* LSTransitioningDemoTests */,
 				4775D3F7219D774D001FB4BE /* LSTransitioningDemoUITests */,
@@ -135,6 +134,7 @@
 		4775D3D3219D7748001FB4BE /* LSTransitioningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4775D48221ABF5D4001FB4BE /* GIF */,
 				4775D47E21ABEE28001FB4BE /* LSImageEnlarge */,
 				4775D3D4219D7748001FB4BE /* AppDelegate.h */,
 				4775D3D5219D7748001FB4BE /* AppDelegate.m */,
@@ -183,10 +183,10 @@
 			path = LSImageEnlarge;
 			sourceTree = "<group>";
 		};
-		4775D47F21ABF4BB001FB4BE /* GIF */ = {
+		4775D48221ABF5D4001FB4BE /* GIF */ = {
 			isa = PBXGroup;
 			children = (
-				4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */,
+				4775D48321ABF5DA001FB4BE /* lsTransitioningDemoGIF.gif */,
 			);
 			path = GIF;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 				4775D40D219E75EB001FB4BE /* ImageCell.xib in Resources */,
 				4775D3DE219D774D001FB4BE /* Assets.xcassets in Resources */,
 				4775D3DC219D7748001FB4BE /* Main.storyboard in Resources */,
-				4775D48121ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif in Resources */,
+				4775D48421ABF5DA001FB4BE /* lsTransitioningDemoGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

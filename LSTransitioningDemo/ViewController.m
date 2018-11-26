@@ -38,25 +38,6 @@
     }
     
     [self setupTableView];
-    
-//    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    btn.frame = CGRectMake(12, 20, kScreenW - 24, 300);
-//    btn.backgroundColor = [UIColor greenColor];
-//    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:btn];
-}
-
--(void)btnClick:(UIButton *)sender
-{
-    NSURL * myURL_APP_A = [NSURL URLWithString:@"alipays://"];
-    
-    if ([[UIApplication sharedApplication] canOpenURL:myURL_APP_A]) {
-        // 跳转付款码
-        NSURL * url = [NSURL URLWithString:@"alipays://platformapi/startapp?appId=60000098&snapshot=no&canPullDown=NO&showOptionMenu=NO&url=/www/offline_qrcode.html?cardType=S0330100&source=shortCut&transparentTitle=auto"];
-        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:^(BOOL success) {
-            
-        }];
-    }
 }
 
 -(void)setupTableView
