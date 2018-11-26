@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FBB4FEC6E9AE3283884794D /* libPods-LSTransitioningDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA88A4E613489175F16EFEB9 /* libPods-LSTransitioningDemoUITests.a */; };
+		38590FDEEA9846E2C7902DFB /* libPods-LSTransitioningDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D54A23456D6A992AD1E3FE /* libPods-LSTransitioningDemoTests.a */; };
 		4775D3D6219D7748001FB4BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D3D5219D7748001FB4BE /* AppDelegate.m */; };
 		4775D3D9219D7748001FB4BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D3D8219D7748001FB4BE /* ViewController.m */; };
 		4775D3DC219D7748001FB4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4775D3DA219D7748001FB4BE /* Main.storyboard */; };
@@ -15,6 +17,13 @@
 		4775D3E4219D774D001FB4BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D3E3219D774D001FB4BE /* main.m */; };
 		4775D3EE219D774D001FB4BE /* LSTransitioningDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D3ED219D774D001FB4BE /* LSTransitioningDemoTests.m */; };
 		4775D3F9219D774D001FB4BE /* LSTransitioningDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D3F8219D774D001FB4BE /* LSTransitioningDemoUITests.m */; };
+		4775D408219D782F001FB4BE /* LSImageEnlargeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D407219D782F001FB4BE /* LSImageEnlargeManager.m */; };
+		4775D40C219E75EB001FB4BE /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D40A219E75EB001FB4BE /* ImageCell.m */; };
+		4775D40D219E75EB001FB4BE /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4775D40B219E75EB001FB4BE /* ImageCell.xib */; };
+		4775D41321A3F850001FB4BE /* ImageEnlargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D41221A3F850001FB4BE /* ImageEnlargeViewController.m */; };
+		4775D41621A692BD001FB4BE /* UIImageView+LongImageShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4775D41521A692BD001FB4BE /* UIImageView+LongImageShowView.m */; };
+		4775D48121ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */; };
+		BEB6872FF766DEEF667707E8 /* libPods-LSTransitioningDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1156029E845F4A2DB957FE00 /* libPods-LSTransitioningDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1156029E845F4A2DB957FE00 /* libPods-LSTransitioningDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTransitioningDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150D965E0C6EB7828A77B4EC /* Pods-LSTransitioningDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemo/Pods-LSTransitioningDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4775D3D1219D7748001FB4BE /* LSTransitioningDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSTransitioningDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4775D3D4219D7748001FB4BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4775D3D5219D7748001FB4BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +62,23 @@
 		4775D3F4219D774D001FB4BE /* LSTransitioningDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSTransitioningDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4775D3F8219D774D001FB4BE /* LSTransitioningDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSTransitioningDemoUITests.m; sourceTree = "<group>"; };
 		4775D3FA219D774D001FB4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4775D406219D782F001FB4BE /* LSImageEnlargeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSImageEnlargeManager.h; sourceTree = "<group>"; };
+		4775D407219D782F001FB4BE /* LSImageEnlargeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSImageEnlargeManager.m; sourceTree = "<group>"; };
+		4775D409219E75EB001FB4BE /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		4775D40A219E75EB001FB4BE /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		4775D40B219E75EB001FB4BE /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		4775D41121A3F850001FB4BE /* ImageEnlargeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageEnlargeViewController.h; sourceTree = "<group>"; };
+		4775D41221A3F850001FB4BE /* ImageEnlargeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageEnlargeViewController.m; sourceTree = "<group>"; };
+		4775D41421A692BD001FB4BE /* UIImageView+LongImageShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LongImageShowView.h"; sourceTree = "<group>"; };
+		4775D41521A692BD001FB4BE /* UIImageView+LongImageShowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LongImageShowView.m"; sourceTree = "<group>"; };
+		4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lsTransitioningDemoGIF.gif; sourceTree = "<group>"; };
+		63E2429759B2C0CF54CF9802 /* Pods-LSTransitioningDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoTests/Pods-LSTransitioningDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0B9941D3EB7C6A6D1E54DC0 /* Pods-LSTransitioningDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3DDDB67442C5868FAE426FB /* Pods-LSTransitioningDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA88A4E613489175F16EFEB9 /* libPods-LSTransitioningDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTransitioningDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5C0F6E190FBAE36B476CAA /* Pods-LSTransitioningDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemo/Pods-LSTransitioningDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3D54A23456D6A992AD1E3FE /* libPods-LSTransitioningDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LSTransitioningDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B6E05141DD529038472DBE /* Pods-LSTransitioningDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSTransitioningDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSTransitioningDemoTests/Pods-LSTransitioningDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB6872FF766DEEF667707E8 /* libPods-LSTransitioningDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38590FDEEA9846E2C7902DFB /* libPods-LSTransitioningDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBB4FEC6E9AE3283884794D /* libPods-LSTransitioningDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +112,13 @@
 		4775D3C8219D7748001FB4BE = {
 			isa = PBXGroup;
 			children = (
+				4775D47F21ABF4BB001FB4BE /* GIF */,
 				4775D3D3219D7748001FB4BE /* LSTransitioningDemo */,
 				4775D3EC219D774D001FB4BE /* LSTransitioningDemoTests */,
 				4775D3F7219D774D001FB4BE /* LSTransitioningDemoUITests */,
 				4775D3D2219D7748001FB4BE /* Products */,
+				7A9BA80A6689589843893393 /* Pods */,
+				EBCCEC92D2701B3B22F7EF8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +135,14 @@
 		4775D3D3219D7748001FB4BE /* LSTransitioningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4775D47E21ABEE28001FB4BE /* LSImageEnlarge */,
 				4775D3D4219D7748001FB4BE /* AppDelegate.h */,
 				4775D3D5219D7748001FB4BE /* AppDelegate.m */,
 				4775D3D7219D7748001FB4BE /* ViewController.h */,
 				4775D3D8219D7748001FB4BE /* ViewController.m */,
+				4775D409219E75EB001FB4BE /* ImageCell.h */,
+				4775D40A219E75EB001FB4BE /* ImageCell.m */,
+				4775D40B219E75EB001FB4BE /* ImageCell.xib */,
 				4775D3DA219D7748001FB4BE /* Main.storyboard */,
 				4775D3DD219D774D001FB4BE /* Assets.xcassets */,
 				4775D3DF219D774D001FB4BE /* LaunchScreen.storyboard */,
@@ -132,6 +170,50 @@
 			path = LSTransitioningDemoUITests;
 			sourceTree = "<group>";
 		};
+		4775D47E21ABEE28001FB4BE /* LSImageEnlarge */ = {
+			isa = PBXGroup;
+			children = (
+				4775D41121A3F850001FB4BE /* ImageEnlargeViewController.h */,
+				4775D41221A3F850001FB4BE /* ImageEnlargeViewController.m */,
+				4775D406219D782F001FB4BE /* LSImageEnlargeManager.h */,
+				4775D407219D782F001FB4BE /* LSImageEnlargeManager.m */,
+				4775D41421A692BD001FB4BE /* UIImageView+LongImageShowView.h */,
+				4775D41521A692BD001FB4BE /* UIImageView+LongImageShowView.m */,
+			);
+			path = LSImageEnlarge;
+			sourceTree = "<group>";
+		};
+		4775D47F21ABF4BB001FB4BE /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				4775D48021ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		7A9BA80A6689589843893393 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				150D965E0C6EB7828A77B4EC /* Pods-LSTransitioningDemo.debug.xcconfig */,
+				DC5C0F6E190FBAE36B476CAA /* Pods-LSTransitioningDemo.release.xcconfig */,
+				63E2429759B2C0CF54CF9802 /* Pods-LSTransitioningDemoTests.debug.xcconfig */,
+				F6B6E05141DD529038472DBE /* Pods-LSTransitioningDemoTests.release.xcconfig */,
+				B0B9941D3EB7C6A6D1E54DC0 /* Pods-LSTransitioningDemoUITests.debug.xcconfig */,
+				B3DDDB67442C5868FAE426FB /* Pods-LSTransitioningDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBCCEC92D2701B3B22F7EF8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1156029E845F4A2DB957FE00 /* libPods-LSTransitioningDemo.a */,
+				E3D54A23456D6A992AD1E3FE /* libPods-LSTransitioningDemoTests.a */,
+				DA88A4E613489175F16EFEB9 /* libPods-LSTransitioningDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4775D3FD219D774D001FB4BE /* Build configuration list for PBXNativeTarget "LSTransitioningDemo" */;
 			buildPhases = (
+				DCA82AC969FB47F09F6D39A9 /* [CP] Check Pods Manifest.lock */,
 				4775D3CD219D7748001FB4BE /* Sources */,
 				4775D3CE219D7748001FB4BE /* Frameworks */,
 				4775D3CF219D7748001FB4BE /* Resources */,
+				743BC3100FAEADE4DE7967C5 /* [CP] Embed Pods Frameworks */,
+				3ACE59427C033295597D907E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4775D400219D774D001FB4BE /* Build configuration list for PBXNativeTarget "LSTransitioningDemoTests" */;
 			buildPhases = (
+				AC225B086FAE9207D0C6C4E8 /* [CP] Check Pods Manifest.lock */,
 				4775D3E5219D774D001FB4BE /* Sources */,
 				4775D3E6219D774D001FB4BE /* Frameworks */,
 				4775D3E7219D774D001FB4BE /* Resources */,
+				DD8DA00A4F67D2F2D9DD1759 /* [CP] Embed Pods Frameworks */,
+				30EFC434840BB343BD4E30BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4775D403219D774D001FB4BE /* Build configuration list for PBXNativeTarget "LSTransitioningDemoUITests" */;
 			buildPhases = (
+				A579FCC5949F8F9568E93B0F /* [CP] Check Pods Manifest.lock */,
 				4775D3F0219D774D001FB4BE /* Sources */,
 				4775D3F1219D774D001FB4BE /* Frameworks */,
 				4775D3F2219D774D001FB4BE /* Resources */,
+				38B8FDB19984D2D2A838C6A6 /* [CP] Embed Pods Frameworks */,
+				52572645F1781F4B4174F31D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,8 +327,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4775D3E1219D774D001FB4BE /* LaunchScreen.storyboard in Resources */,
+				4775D40D219E75EB001FB4BE /* ImageCell.xib in Resources */,
 				4775D3DE219D774D001FB4BE /* Assets.xcassets in Resources */,
 				4775D3DC219D7748001FB4BE /* Main.storyboard in Resources */,
+				4775D48121ABF4D3001FB4BE /* lsTransitioningDemoGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +350,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30EFC434840BB343BD4E30BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemoTests/Pods-LSTransitioningDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B8FDB19984D2D2A838C6A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACE59427C033295597D907E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemo/Pods-LSTransitioningDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52572645F1781F4B4174F31D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemoUITests/Pods-LSTransitioningDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743BC3100FAEADE4DE7967C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemo/Pods-LSTransitioningDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A579FCC5949F8F9568E93B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTransitioningDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC225B086FAE9207D0C6C4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTransitioningDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA82AC969FB47F09F6D39A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSTransitioningDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8DA00A4F67D2F2D9DD1759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSTransitioningDemoTests/Pods-LSTransitioningDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4775D3CD219D7748001FB4BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4775D3D9219D7748001FB4BE /* ViewController.m in Sources */,
+				4775D40C219E75EB001FB4BE /* ImageCell.m in Sources */,
+				4775D408219D782F001FB4BE /* LSImageEnlargeManager.m in Sources */,
+				4775D41621A692BD001FB4BE /* UIImageView+LongImageShowView.m in Sources */,
 				4775D3E4219D774D001FB4BE /* main.m in Sources */,
 				4775D3D6219D7748001FB4BE /* AppDelegate.m in Sources */,
+				4775D41321A3F850001FB4BE /* ImageEnlargeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +677,11 @@
 		};
 		4775D3FE219D774D001FB4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150D965E0C6EB7828A77B4EC /* Pods-LSTransitioningDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7AD2L68WX;
 				INFOPLIST_FILE = LSTransitioningDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +695,11 @@
 		};
 		4775D3FF219D774D001FB4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5C0F6E190FBAE36B476CAA /* Pods-LSTransitioningDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7AD2L68WX;
 				INFOPLIST_FILE = LSTransitioningDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +713,7 @@
 		};
 		4775D401219D774D001FB4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E2429759B2C0CF54CF9802 /* Pods-LSTransitioningDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +732,7 @@
 		};
 		4775D402219D774D001FB4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B6E05141DD529038472DBE /* Pods-LSTransitioningDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +751,7 @@
 		};
 		4775D404219D774D001FB4BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B9941D3EB7C6A6D1E54DC0 /* Pods-LSTransitioningDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSTransitioningDemoUITests/Info.plist;
@@ -518,6 +769,7 @@
 		};
 		4775D405219D774D001FB4BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3DDDB67442C5868FAE426FB /* Pods-LSTransitioningDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LSTransitioningDemoUITests/Info.plist;
